@@ -1,2 +1,3 @@
-# rms0616
-Redwater Minor Soccer redwatersoccer.ca June 2016
+# Redwater Minor Soccer redwatersoccer.ca
+# a psk (polymer starter kit) app
+# enjoy

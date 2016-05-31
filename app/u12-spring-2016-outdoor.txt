@@ -1,0 +1,137 @@
+[
+{
+"index": 0,
+"date": "May 2, 7:30 PM ",
+"location": "Field 3",
+"hometeam": "Tofield",
+"awayteam": "Redwater",
+"result": "loss",
+"summary": "4-3"
+},
+{
+"index": 1,
+"date": "May 4, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Morinville",
+"result": "win",
+"summary": "3-2 Justin scores 2 goals and assists on winner by Alex."
+},
+{
+"index": 2,
+"date": "May 11, 7:30 PM",
+"location": "Landing Trail",
+"hometeam": "Gibbons",
+"awayteam": "Redwater",
+"result": "win",
+"summary": "3-1"
+},
+{
+"index": 3,
+"date": "May 16, 7:30 PM",
+"location": "MPS #11",
+"hometeam": "Fort Sask",
+"awayteam": "Redwater",
+"result": "loss",
+"summary": "unavailable"
+},
+{
+"index": 4,
+"date": "May 18, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Bon Accord",
+"result": "loss",
+"summary": "unavailable"
+},
+{
+"index": 5,
+"date": "May 23, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Ardrossan",
+"result": "loss",
+"summary": "unavailable"
+},
+{
+"index": 6,
+"date": "May 25, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Tofield",
+"result": "tie",
+"summary": "2-2. Game ended early due to weather. Some excellent scoring chances troughout and 2 found the back of the net."
+},
+{
+"index": 7,
+"date": "May 30, 7:30 PM",
+"location": "Shell #1",
+"hometeam": "Morinville",
+"awayteam": "Redwater",
+"result": "cancelled",
+"summary": "wet conditions"
+},
+{
+"index": 8,
+"date": "June 6, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Gibbons",
+"result": "",
+"summary": "unavailable"
+},
+{
+"index": 9,
+"date": "June 8, 7:30 PM ",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Fort Sask",
+"result": "",
+"summary": "unavailable"
+},
+{
+"index": 10,
+"date": "June 13, 7:30 PM",
+"location": "Field 1 ",
+"hometeam": "Bon Accord",
+"awayteam": "Redwater",
+"result": "",
+"summary": "unavailable"
+},
+{
+"index": 11,
+"date": "June 15, 7:30 PM",
+"location": "Holy Redeemer",
+"hometeam": "Ardrossan",
+"awayteam": "Redwater",
+"result": "",
+"summary": "unavailable"
+},
+{
+"index": 12,
+"date": "June 20, 7:30 PM",
+"location": "Field 3",
+"hometeam": "Toefield",
+"awayteam": "Redwater",
+"result": "",
+"summary": ""
+},
+{
+"index": 13,
+"date": "June 22, 7:30 PM",
+"location": "Centennial",
+"hometeam": "Redwater",
+"awayteam": "Morinville",
+"result": "",
+"summary": ""
+},
+{
+"index": 14,
+"date": "June 29, 7:30 PM",
+"location": "Landing Trail",
+"hometeam": "Gibbons",
+"awayteam": "Redwater",
+"result": "",
+"summary": ""
+}
+]

@@ -1,0 +1,93 @@
+<dom-module id="rms-schedule">
+  <template>
+    <div class="rms-main vertical layout left">
+
+      <style as="custom-style">
+        paper-button {
+          background: rgba(75, 0, 130, .5);
+        }
+      </style>
+
+      <paper-button tabindex="0" toggles on-click="_pbclick">
+        <iron-icon icon="view-stream" style="padding: 5px" on-click="_iiclick">
+        </iron-icon>{{buttontext}}</paper-button>
+<!--
+      <iron-collapse class="rms-main vertical layout">
+-->
+        <iron-collapse opened="false" id="{{collapseid}}">
+
+        <iron-ajax url="{{dataurl}}" last-response="{{data}}" auto></iron-ajax>
+
+        <div rms-main layout vertical center-center>
+          <iron-list items="[[data]]" as="item">
+            <template>
+              <div rms-main layout vertical center-center>
+                <div>
+                  <h3>[[item.date]], [[item.hometeam]] v. [[item.awayteam]] </h3>
+                </div>
+                <div>[[item.location]]</div>
+                <div>home team: [[item.hometeam]] </div>
+                <div>away team: [[item.awayteam]]</div>
+                <div>[[item.result]] </div>
+                <div>summary: [[item.summary]] </div>
+              </div>
+            </template>
+          </iron-list>
+        </div>
+
+        </iron-collapse>
+<!--
+      </iron-collapse>
+-->
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rms-schedule',
+
+      properties: {
+        dataurl: {
+          type: String,
+          notify: true
+        },
+        buttontext: {
+          type: String,
+          notify: true
+        },
+        collapseid: {
+          type: String,
+          notify: true
+        }
+
+      },
+
+    attached: function() {
+        console.log(this.localName + '#' + this.id + ' has local DOM initialized');
+
+    ele = document.querySelector('#'+this.collapseid);
+    ele.opened = false;
+      },
+
+      _pbclick: function(b) {
+        b.target.nextElementSibling.toggle();
+  /*  console.log(b.target.nextElementSibling.id);
+    ic = b.target.nextElementSibling;
+    icqs = '#' + ic.id;
+    console.log (icqs);
+
+ele = document.querySelector(icqs);
+    ele.toggle();*/
+      },
+
+      _iiclick: function(i) {
+        i.target.parentElement.nextElementSibling.toggle();
+        i.stopPropagation();
+      }
+    }
+    );
+  </script>
+
+</dom-module>

@@ -1,0 +1,103 @@
+
+<dom-module id="rms-home" >
+  <style include="iron-flex"></style>
+  <style>
+    .container {
+      @apply(--layout-horizontal);
+      @apply(--layout-justified);
+      @apply(--layout-wrap);
+    }
+  </style>
+
+    <template>
+
+
+       <paper-material elevation="2" class="rms-main layout horizontal center-center" >
+              <iron-image id="rocketslogo" sizing="contain" class="rms-third" src="/images/rrl.png">
+              </iron-image>
+
+
+              <div class="rms-two-thirds">
+              <h3>Go Rockets!</h3>
+              <p>Welcome to the website. You will find information on all our teams,
+                  <a href="/announce">important announcements</a>, campaigns, and our organzation.</p>
+                </div>
+
+  </div>
+        </paper-material>
+ <paper-material elevation="2" class="rms-main layout horizontal center-center" >
+
+
+              <div class="rms-third">
+              <h3>2016 Season is here.</h3>
+              <p>Thank you to all the people who organized the equipment and uniforms. The uniforms
+                are awesome!
+              </p>
+                <a href="http://www.campea.com">
+<div class="rms-third" style="background-color:red;padding:10px">
+                <iron-image src="http://www.campea.com/support/campea-logo-new-en.png" ></iron-image>
+</div>
+                  </a>
+                </div>
+   <iron-image class="rms-two-thirds"
+     style="width:400px; height:400px;" sizing="cover"
+     src="https://lh3.googleusercontent.com/R5v96m0W_8WHCmZUZ0VB_Hsp0DrIpUYLDOIRbFzlFLRXGUQGJFTNm7OgeXkDRVU39E00z7tP0cz1vqhcu1-65nVM35idpWRXrQPM2geDp1NP-4WhXf3cUjK43gU1oRIailgiTTitGlY-aJLDGQ-itITH6Hz_ammmaYyfLX8j4ODY9pX05xTuzBX9AReXWP7gUv8Vk2E4z2ctYg4bNPmF6ACen7vDnEQB1fMWOdsF4xAYBknF6I3N_re4i6mjxPDzdIHzT97inbNuGq1NTgx6O-Z37k_kCw7QR7YBoaaoxKL1KF_mAoKbp47DAIivRjbz29h3KmwBd9OuJ0OKXA6Bkwnti0O2j7P2t7PdOuZKj_1LdJ4LRmNcssKxH2HRGU4i6sOOr60flQv98AbdpHvrqk56z7Gy7_n1OP9vjlrHUlZnbljpuAgEm4VzLDMdHsqxhoGZcgvuugrp983EVFeSL5BzE3r2VXvntDLOci51zXzR0FWDgSYUggiAhY-y49-fk31K9oxoDZ47_Lt8yJXm7dQtHX6R_rPOWHxfwDsIvIm2xHROYdjEArPMl1Z6FbOAXYYPXO_fokxK9gv8tuR_eGRlam0eBPI=w1443-h962-no">
+              </iron-image>
+
+
+  </div>
+        </paper-material>
+
+        <div class="rms-main container">
+            <div class="container rms-main-half">
+                <partner-card class="rms-card" name="Alberta Soccer Association" src="../../images/ASALOGO.png" href="http://www.albertasoccer.com/"></partner-card>
+
+                <partner-card class="rms-card" name="Sherwood Park District Soccer Association" src="../../images/spdsa.png" href="http://www.spdsa.net/"></partner-card>
+
+            </div>
+              <div class="container rms-main-half">
+            <!--div name="partner-cards" class="rms-main-half horizontal justified layout "-->
+                <partner-card class="rms-card" name="Tri County Soccer Association" src="../../images/TRICOUNTY.png" href="http://www.tricountysoccer.net/"></partner-card>
+
+                <partner-card class="rms-card" name="Gibbons Minor Soccer Association" src="../../images/gibbons.png" href="http://www.gibbonssoccer.com/"></partner-card>
+            </div>
+        </div>
+
+
+
+        <div id="redwater-card" class="rms-main">
+            <paper-material class="rms-main" elevation="2">
+                <div class="horizontal layout center-center rms-main">
+                    <!--
+            <a target="_blank" data-outbound="image-map" href="https://www.google.ca/maps/place/Redwater,+AB+T0A/@53.9526665,-113.1233891,14z/data=!3m1!4b1!4m2!3m1!1s0x53a0528cd47781e9:0xf420d33dae24f632">
+            -->
+                    <div class="rms-third horizontal layout center-center">
+                        <iron-image id="derrick" sizing="contain" src="../../images/derrick02.jpg" class="rms-third">
+                        </iron-image>
+                    </div>
+                    <!-- </a> -->
+                    <div class="rms-two-thirds vertical layout">
+                        <h3>Redwater, Alberta</h3>
+                        <p>Less than an hour north-east of Edmonton, Redwater is a growing community with many recreational oportunities.</p>
+                    </div>
+                </div>
+            </paper-material>
+        </div>
+
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'rms-home',
+            properties: {
+                page: {
+                    type: String
+                }
+            },
+
+            attached: function() {}
+        });
+    </script>
+
+</dom-module>

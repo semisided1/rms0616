@@ -1,0 +1,128 @@
+[
+{
+"index": 0,
+"date": "November 5, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Redwater",
+"awayteam": "Team 02 - Bailey",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 1,
+"date": "November 13, 7:30 PM",
+"location": "Millennium Place Field 1",
+"hometeam": "Team 04 - Hernandez",
+"awayteam": "Redwater",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 2,
+"date": "November 19, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Redwater",
+"awayteam": "Team 09 - Castle",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 3,
+"date": "November 27, 6:45 PM",
+"location": "Millennium Place Realty Executives",
+"hometeam": "Redwater",
+"awayteam": "Team 01 - Grainger",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 4,
+"date": "December 4, 7:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Redwater",
+"awayteam": "Fort Sask - Hyde",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 5,
+"date": "December 10, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Team 03 - Cameron",
+"awayteam": "Redwater",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 6,
+"date": "December 17, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Fort Sask - Leroy",
+"awayteam": "Redwater",
+"result": "win",
+"summary": "unavailable"
+},
+{
+"index": 7,
+"date": "January 8, 7:30 PM ",
+"location": "Millennium Place Field 1",
+"hometeam": "Redwater",
+"awayteam": "Ardrossan ",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 8,
+"date": "January 15, 7:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Redwater",
+"awayteam": "Team 06 - Mageau ",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 9,
+"date": "January 22, 7:30 PM",
+"location": "Millennium Place Field 1",
+"hometeam": "Team 05 - Redinger",
+"awayteam": "Redwater",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 10,
+"date": "January 28, 7:45 PM",
+"location": "Millennium Place Realty Executives",
+"hometeam": "Team 08 - Chambers",
+"awayteam": "Redwater",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 11,
+"date": "February 4, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Fort Sask - McGrath",
+"awayteam": "Redwater",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 12,
+"date": "February 18, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Redwater",
+"awayteam": "Team 07 - Tupper ",
+"result": "-",
+"summary": "unavailable"
+},
+{
+"index": 13,
+"date": "March 3, 6:00 PM",
+"location": "Dow Centennial Centre",
+"hometeam": "Fort Sask - Vaughan",
+"awayteam": "Redwater",
+"result": "-",
+"summary": "unavailable"
+}
+]

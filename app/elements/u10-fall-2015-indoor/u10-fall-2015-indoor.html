@@ -1,0 +1,32 @@
+<dom-module id="u10-fall-2015-indoor">
+  <template>
+  <div class="rms-main vertical layout center-center">
+
+    <h1>U10 Fall 2015 Indoor</h1>
+
+    <rms-schedule
+      dataurl="/u10-fall-2015-indoor.txt"
+      buttontext="U10 Fall 2015 Indoor Schedule"
+      collapseid="u10-fall-2015-indoor" >
+    </rms-schedule>
+
+  </div>
+  </template>
+  <script>
+    (function() {
+      'use strict';
+
+      Polymer({
+        is: 'u10-fall-2015-indoor',
+
+        properties: {
+          foo: {
+            type: String,
+            value: 'u10-fall-2015-indoor',
+            notify: true
+          }
+        }
+      });
+    })();
+  </script>
+</dom-module>
